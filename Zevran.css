@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,200;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #008080;
+    height: 100vh;
+    /* width: 100%; */
+}
+
+nav, .nav-ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    /* width: 100%; */
+    justify-content: center;
+    background-color: black;
+}
+
+.nav-ul a{  
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-ul a:hover{
+    color: #008080;
+}
+
+.greatercontainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+.container{
+    height: 800px;
+    background-color: beige;
+    /* margin: 50px; */
+    padding: 10px 40px 20px 40px;
+    border-radius: 7px;
+    box-shadow: 7px 5px 5px black;
+}
+
+.name,
+.role,
+.dob,
+.info,
+.factscontainer{
+    margin: 2px;
+    text-align: center;
+}
+
+.name,
+.role,
+.dob,
+.info{
+    font-family: 'fraunces', sans-serif;
+}
+
+.name,
+.info{
+    font-weight: 700;
+}
+
+
+
+.facts,
+.factscontainer{
+    list-style-type: none;
+    margin: 5px;
+}
+
+p{
+    margin: 2px;
+    text-align: center;
+}
